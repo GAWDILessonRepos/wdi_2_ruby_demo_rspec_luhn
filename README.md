@@ -13,10 +13,8 @@ By the end of this, students should be able to:
 
 ## Instructions
 
-Fork and clone.
-Run `bundle`
-Run `rspec --init`
-
-## Notes
-
-Follow along. 
+- Fork and clone this repo, change working directory.
+- Run `bundle install`.
+- Run `rspec --init`.
+- Follow along with your instructor. Stage and commit your changes as you progress.
+- Push changes to your Github repo `git push origin master`.
