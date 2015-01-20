@@ -21,6 +21,7 @@ describe Validator do
   describe '#cc_num_pop' do
     it 'removes the last item in the array and saves it' do
       expect(@validator.cc_num_pop).to eq [4,0,2,4,0,0,7,1,6,6,1,7,5,1,4]
+      expect(@validator.cc_popped_num).to eq 0
     end
   end
 

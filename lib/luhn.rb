@@ -1,5 +1,7 @@
 class Validator
 
+  attr_accessor :cc_popped_num
+
   def initialize(num)
     @num = num
   end
